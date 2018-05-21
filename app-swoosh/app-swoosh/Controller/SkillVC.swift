@@ -10,10 +10,12 @@ import UIKit
 
 class SkillVC: UIViewController {
 
+    var player: Player!
+    @IBOutlet weak var playerType: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
